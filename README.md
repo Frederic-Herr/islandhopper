@@ -1,7 +1,10 @@
 # Island Hopper
 
-[View Game on <img src="images/Steam.png" width="100" />](https://store.steampowered.com/app/2326260/Island_Hopper/)
+## Steam ([View Game on <img src="images/Steam.png" width="100" />](https://store.steampowered.com/app/2326260/Island_Hopper/))
 
+We released the Game ourselves on Steam on 20.10.2023.
+
+## Gameplay Video
 [![Gameplay Video](https://img.youtube.com/vi/olJNU1_dzL8/0.jpg)](https://www.youtube.com/watch?v=olJNU1_dzL8)
 
 ## About the Game
@@ -29,3 +32,6 @@ On your journeys to all the islands there will be a lot of dangerous enemies.
 Make sure you're prepared accordingly to defeat them!
 
 ![Combat Gif](images/CombatGIF.gif)
+
+
+## Code Samples
