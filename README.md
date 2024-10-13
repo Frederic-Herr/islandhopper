@@ -1,8 +1,8 @@
 # Island Hopper
 
-## Steam ([View Game on <img src="images/Steam.png" width="100" />](https://store.steampowered.com/app/2326260/Island_Hopper/))
+## Steam ([View game on <img src="images/Steam.png" width="100" />](https://store.steampowered.com/app/2326260/Island_Hopper/))
 
-We released the Game ourselves on Steam on 20.10.2023.
+We released the game ourselves on Steam on 20.10.2023.
 
 ## Gameplay Video
 [![Gameplay Video](https://img.youtube.com/vi/olJNU1_dzL8/0.jpg)](https://www.youtube.com/watch?v=olJNU1_dzL8)
@@ -35,3 +35,10 @@ Make sure you're prepared accordingly to defeat them!
 
 
 ## Code Samples
+
+### Icon Creator ([View Script](scripts/IconCreator.cs))
+
+This script was written to generate icons of 3D objects, which are later used in the UI of the inventory.
+For this i created an empty scene where i place the 3D object in front of the camera.
+The background color of the scene can be adjusted in the inspector of the script. This serves as a green screen, which is removed when the icon is created.
+
