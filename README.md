@@ -39,6 +39,24 @@ Make sure you're prepared accordingly to defeat them!
 ### Icon Creator ([View Script](scripts/IconCreator.cs))
 
 This script was written to generate icons of 3D objects, which are later used in the UI of the inventory.
-For this i created an empty scene where i place the 3D object in front of the camera.
-The background color of the scene can be adjusted in the inspector of the script. This serves as a green screen, which is removed when the icon is created.
+For this i created an empty scene where i place the 3D object in front of the main camera.
+The background color of the camera can be adjusted in the inspector of the script. This serves as a green screen, which is removed when the icon is created.
+For a good result, the resolution of the game view should correspond to the icon size. This step still needs to be optimised.
+
+#### Inspector and game view
+<img src="images/iconcreatorinspector.png" width="700" alt="Icon Creator Inspector Image"/>
+
+#### Result
+<img src="images/iconcreatorresult.png" width="426" alt="Icon Creator Result Image"/>
+
+### Puzzle ([View Script](scripts/Puzzle.cs)))
+
+This is the parent script of all puzzles in the game.
+It contains functions like `ResetPuzzle()`, `SolvePuzzle()` and `FailPuzzle()`.
+
+#### Sequence Puzzle ([View Script](scripts/SequencePuzzle.cs))
+
+In this puzzle, the switches must be pressed in the correct order.
+
+<img src="images/SequencePuzzle.gif" width="426" alt="Sequence Puzzle Gif"/>
 
